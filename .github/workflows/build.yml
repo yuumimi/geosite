@@ -35,9 +35,10 @@ jobs:
       - name: Append attribute rules
         run: |
           echo "auvpn.net" >> ./domain-list-community/data/category-vpnservices
-          echo "ausososo.click" >> ./domain-list-community/data/category-vpnservices
-          echo "ausososo.club" >> ./domain-list-community/data/category-vpnservices
-          echo "ausososo.online" >> ./domain-list-community/data/category-vpnservices
+          echo "ausososo.click @cn" >> ./domain-list-community/data/category-vpnservices
+          echo "ausososo.club @cn" >> ./domain-list-community/data/category-vpnservices
+          echo "ausososo.online @cn" >> ./domain-list-community/data/category-vpnservices
+          echo "ausososo.xyz @cn" >> ./domain-list-community/data/category-vpnservices
           echo "ausu.autos @cn" >> ./domain-list-community/data/category-vpnservices
           echo "ausu.beauty @cn" >> ./domain-list-community/data/category-vpnservices
           echo "ausu.hair @cn" >> ./domain-list-community/data/category-vpnservices
@@ -48,6 +49,7 @@ jobs:
           echo "ausu.shop @cn" >> ./domain-list-community/data/category-vpnservices
           echo "ausu.skin @cn" >> ./domain-list-community/data/category-vpnservices
           echo "ausvc.link @cn" >> ./domain-list-community/data/category-vpnservices
+          echo "rd.sbs @cn" >> ./domain-list-community/data/category-vpnservices
           echo "full:api.inforun.work @cn" >> ./domain-list-community/data/category-vpnservices
           echo "full:repo.t5.work @cn" >> ./domain-list-community/data/category-vpnservices
           echo "splashtop.com @cn" >> ./domain-list-community/data/category-vpnservices
